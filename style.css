@@ -140,7 +140,6 @@ button{
  /* row1 start */
  .row1{
   max-width: 100%;
-  display: block;
  }
  .colum{
   color: #1c2050;
@@ -153,9 +152,9 @@ button{
   padding: 10px;
   background-image: url("/photos/Background\ \(3\).png");
 }
-.colum1 img{
-  max-width: 100%;
-  
+.colum1 img {
+    max-width: 90%;
+    margin-left: 120px;
 }
 .colum h5{
     line-height: 42px;
@@ -167,7 +166,7 @@ button{
     width: 156px;
     height: 4px;
     border: none;
-     /* background: linear-gradient(to bottom,#02d5d5); */
+     background: linear-gradient(to bottom,#02d5d5);
     color: transparent;
     -webkit-background-clip:line;
 }
@@ -193,4 +192,69 @@ h4{
     border-radius: 40px;
     background-color: #02d5d5;
     color: white;
+        margin-bottom: 28px;
+}
+ /* row3 start */
+ .rw3{
+  max-width: 100%;
+  background-image: url("photos/16252659_3384_Abstract_Modern_Background_with_Wave_Motion_Element_and_Blue_White_White_Gadient_Color_10\ 1\ 1.png");
+ }
+ .rose1{
+ max-width: 100%;
+ }
+ .rose2{
+  max-width: 100%;
+  display: flex;
+ }
+ .rose2.a{
+  width: 50%;
+  float: left;
+ }
+ .rose2.b{
+  float: left;
+  width: 50%;
+ }
+ .row3 {
+    text-align: center;
+}
+h3 {
+  text-align: center;
+  color: #1c2050;
+    padding-bottom: 5px;
+    padding-top: 32px;
+    font-size: 30px;
+}
+
+.h2a {
+  padding-left: 0px;
+    text-align: center;
+    padding-bottom: 25PX;
+    color: #1c2050;
+    line-height: 52px;
+    padding-top: 11px;
+    font-size: 30px;
+}
+.img5 {
+   
+    margin-left: 34%;
+    margin: 0, auto;
+    margin-top: 14px;
+    width: 31%;
+    height: 5px;
+}
+span{
+  color: #02d5d5;
+}
+.img7{
+    margin-left: 90px;
+    width: 586px;
+    height: 345px;
+}
+.pa {
+    text-align: start;
+    padding-top: 61px;
+    padding-left: 95px;
+    font-family: sans-serif;
+    line-height: 24px;
+    font-size: 16px;
 }
