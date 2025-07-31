@@ -19,16 +19,15 @@ html,body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 78px;
+  padding: 20px 55px;
 }
-.logo {
+/* .logo {
   display: flex;
   align-items: center;
-}
+} */
 
 .logo img {
-  height: 40px;
-  margin-right: 10px;
+  max-width:60%;
 }
 
 .nav-links a {
@@ -37,6 +36,12 @@ html,body{
   color: black;
   font-size: 18px;
   font-weight: 500;
+  display: block;
+  float: left;
+}
+
+.a-icons{
+  display: none;
 }
 
 .nav-links a:hover {
@@ -55,7 +60,22 @@ html,body{
   width: 50%;
   padding: 10px;
 }
-
+.rashi{
+  display: flex;
+}
+.res-nav-links{
+  background: saddlebrown;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    
+  display: none;
+          align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        list-style-type: none;
+}
 .hero-right {
     text-align: right;
     padding-top: 50px;
@@ -499,19 +519,6 @@ img.faq-img {
     font-size: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer start */
 
 .footer{
@@ -569,4 +576,3 @@ img.faq-img {
     font-size: 20px;
     letter-spacing: 1px;
 }
- 

@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+  .a-icons{
+  display: inline;
+}
+
+.nav-links a
+{
+    display: none;
+}
+.nav-i{
+     font-size: 25px;
+}
+.res-nav-links {
+    
+        font-size: 1.4em;
+        gap: 38px;
+    background: #aeeded;
+    height: 84vh;
+    width:100vw;
+    align-items: center;
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+
+}
+}
+
+
+
