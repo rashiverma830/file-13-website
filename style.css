@@ -82,6 +82,8 @@ html,body{
 }
 
 .hero{
+  background: cover;
+  background: no-repeat;
     background-image: url("photos/Background.png"); 
     padding-left: 8%;
     padding-right: 8%;
@@ -209,17 +211,20 @@ html,body{
     font-size: 28px;
 }
 .why-us p {
-    line-height: 25px;
-    font-size: 20px;
+   
+    line-height: 24px;
+    font-size: 17px;
 }
 .why-us-a {
+  padding-right: 8%;
+  padding-left: 8%;
     align-items: center;
     justify-content: center;
     display: flex;
     max-width: 100%;
 }
 .why-us-a img{
-  max-width: 80%;
+  max-width: 100%;
   background-image: url("photos/Background%20(3).png");
 }
 .why-us-a-btn{
