@@ -211,9 +211,10 @@ html,body{
     font-size: 28px;
 }
 .why-us p {
-   
-    line-height: 24px;
-    font-size: 17px;
+    padding-right: 30px;
+    padding-left: 30px;
+    /* line-height: 24px; */
+    font-size: 19px;
 }
 .why-us-a {
   padding-right: 8%;
@@ -580,4 +581,16 @@ img.faq-img {
     font-family: sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
+}
+
+
+.res-box {
+    margin: auto;
+    max-width: 100%;
+    width: 600px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 34px;
 }
